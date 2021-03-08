@@ -43,7 +43,7 @@ file.Node.Name	"basic/dropdown.css"	string
 	
 		file.Node.BM_CognitiveComplexity	2	double
 		file.Node.BM_CyclomaticComplexity	4	double
-		file.Node.BM_NestingDepth	2	int
+		file.Node.BM_NestingDepth	 	int
 
 */
 .dropdown {
