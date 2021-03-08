@@ -65,7 +65,7 @@ file.Node.Name	"basic/attributeSelectors.css"	string
 
 */
 a[href] { color: red }
-/* matches a elements with an href attribute */
+/* matches a elements with an href attribute  */
 
 a[href="/sitemap/"] { color: red }
 /* matches a elements with the attribute and value href="/sitemap/" */
