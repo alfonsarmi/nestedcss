@@ -1,86 +1,66 @@
 /*
-Attribute selectors
-Selector	Description	Example
-*/
-/*
-file.Node.Name	"basic/attributeSelectors.css"	string		
--		selectorLogicModifierList	Count = 0	System.Collections.Generic.List<string>
+file.Node.Name	"basic/dropdown.css"	string		
+-		selectorLogicModifierList	Count = 1	System.Collections.Generic.List<string>
+		[0]	" "	string
 	
 -		selectorModifierList	Count = 0	System.Collections.Generic.List<string>
 	
--		operators	Count = 21	System.Collections.Generic.List<string>
-		[0]	"["	string
-		[1]	"href"	string
-		[2]	"["	string
-		[3]	"href"	string
-		[4]	"["	string
-		[5]	"~"	string
-		[6]	"["	string
-		[7]	"["	string
-		[8]	"href"	string
-		[9]	"."	string
-		[10]	"["	string
-		[11]	"href"	string
-		[12]	"["	string
-		[13]	"href"	string
-		[14]	"color"	string
-		[15]	"color"	string
-		[16]	"color"	string
-		[17]	"color"	string
-		[18]	"color"	string
-		[19]	"color"	string
-		[20]	"color"	string
+-		operators	Count = 14	System.Collections.Generic.List<string>
+		[0]	"."	string
+		[1]	"."	string
+		[2]	"."	string
+		[3]	" "	string
+		[4]	"position"	string
+		[5]	"display"	string
+		[6]	"display"	string
+		[7]	"position"	string
+		[8]	"background-color"	string
+		[9]	"min-width"	string
+		[10]	"box-shadow"	string
+		[11]	"padding"	string
+		[12]	"z-index"	string
+		[13]	"display"	string
 	
--		operands	Count = 28	System.Collections.Generic.List<string>
-		[0]	"a"	string
-		[1]	""	string
-		[2]	"]"	string
-		[3]	"a"	string
+-		operands	Count = 18	System.Collections.Generic.List<string>
+		[0]	""	string
+		[1]	"dropdown"	string
+		[2]	""	string
+		[3]	"dropdown-content"	string
 		[4]	""	string
-		[5]	"=\"/sitemap/\"]"	string
-		[6]	"abbr"	string
-		[7]	"title"	string
-		[8]	"=\"Style\"]"	string
-		[9]	"html"	string
-		[10]	"lang|=\"en\"]"	string
-		[11]	"a"	string
-		[12]	""	string
-		[13]	"^=\"http://\"]"	string
-		[14]	"a"	string
-		[15]	""	string
-		[16]	"$=\""	string
-		[17]	"com\"]"	string
-		[18]	"a"	string
-		[19]	""	string
-		[20]	"*=\"htmldog\"]"	string
-		[21]	"red"	string
-		[22]	"red"	string
-		[23]	"red"	string
-		[24]	"red"	string
-
-		file.Node.BM_CognitiveComplexity	4	double
-		file.Node.BM_CyclomaticComplexity	9	double
-		file.Node.BM_NestingDepth	3	int
-
+		[5]	"dropdown:hover"	string
+		[6]	""	string
+		[7]	"dropdown-content"	string
+		[8]	"relative"	string
+		[9]	"inline-block"	string
+		[10]	"none"	string
+		[11]	"absolute"	string
+		[12]	"#f9f9f9"	string
+		[13]	"160px"	string
+		[14]	"0px 8px 16px 0px rgba(0,0,0,0.2)"	string
+		[15]	"12px 16px"	string
+		[16]	"1"	string
+		[17]	"block"	string
+	
+		file.Node.BM_CognitiveComplexity	2	double
+		file.Node.BM_CyclomaticComplexity	4	double
+		file.Node.BM_NestingDepth	2	int
 
 */
-a[href] { color: red }
-/* matches a elements with an href attribute  */
-
-a[href="/sitemap/"] { color: red }
-/* matches a elements with the attribute and value href="/sitemap/" */
-
-abbr[title~="Style"] { color: red }
-/* matches abbr elements with a title that contains 'Style' (such as in title="Cascading Style Sheets") */
-
-html[lang|="en"] { color: red }
-/* matches html elements with a lang attribute that contains 'en' (such as in lang="en-gb") */
-
-a[href^="http://"] { color: red }
-/* matches a elements with an href attribute, the value of which begins with 'http://' */
-
-a[href$=".com"] { color: red }
-/* matches a elements with an href attribute, the value of which ends with '.com' */
-
-a[href*="htmldog"] { color: red }
-/* matches a elements with an href attribute, the value of which contains 'htmldog' */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
