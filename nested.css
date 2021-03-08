@@ -1,0 +1,258 @@
+/*
+file.Node.Name	"basic/simple.css"	string		
+-		selectorLogicModifierList	Count = 1	System.Collections.Generic.List<string>
+		[0]	" "	string
+
+-		selectorModifierList	Count = 0	System.Collections.Generic.List<string>
+
+-		operators	Count = 57	System.Collections.Generic.List<string>
+		[0]	" "	string
+		[1]	"#"	string
+		[2]	"."	string
+		[3]	"."	string
+		[4]	"."	string
+		[5]	"."	string
+		[6]	"."	string
+		[7]	"."	string
+		[8]	"."	string
+		[9]	"."	string
+		[10]	"."	string
+		[11]	"."	string
+		[12]	"."	string
+		[13]	"."	string
+		[14]	"."	string
+		[15]	"."	string
+		[16]	"#"	string
+		[17]	"#"	string
+		[18]	"["	string
+		[19]	"margin"	string
+		[20]	"margin"	string
+		[21]	"text-align"	string
+		[22]	"color"	string
+		[23]	"text-align"	string
+		[24]	"color"	string
+
+		[25]	"text-align"	string
+		[26]	"color"	string
+		[27]	"text-align"	string
+		[28]	"color"	string
+		[29]	"text-align"	string
+		[30]	"color"	string
+		[31]	"text-align"	string
+		[32]	"color"	string
+		[33]	"background-color"	string
+		[34]	"opacity"	string
+		[35]	"background"	string
+		[36]	"background-image"	string
+		[37]	"padding"	string
+		[38]	"border-style"	string
+		[39]	"border-style"	string
+		[40]	"border-style"	string
+		[41]	"border-style"	string
+		[42]	"border-style"	string
+		[43]	"border-style"	string
+		[44]	"border-style"	string
+		[45]	"border-style"	string
+		[46]	"border-style"	string
+		[47]	"border-style"	string
+		[48]	"border-style"	string
+		[49]	"border"	string
+
+		[50]	"margin-left"	string
+		[51]	"margin-left"	string
+		[52]	"border"	string
+		[53]	"background-color"	string
+		[54]	"background-color"	string
+		[55]	"background-color"	string
+		[56]	"background-color"	string
+
+-		operands	Count = 90	System.Collections.Generic.List<string>
+		[0]	"*"	string
+		[1]	"article"	string
+		[2]	"*:first-child"	string
+		[3]	"p"	string
+		[4]	""	string
+		[5]	"para1"	string
+		[6]	""	string
+		[7]	"center"	string
+		[8]	"p"	string
+		[9]	"center"	string
+		[10]	"*"	string
+		[11]	"h1"	string
+		[12]	"h2"	string
+		[13]	"p"	string
+		[14]	"div"	string
+		[15]	"div"	string
+		[16]	"p"	string
+		[17]	"p"	string
+		[18]	"dotted"	string
+		[19]	"p"	string
+		[20]	"dashed"	string
+		[21]	"p"	string
+		[22]	"solid"	string
+		[23]	"p"	string
+		[24]	"double"	string
+
+		[25]	"p"	string
+		[26]	"groove"	string
+		[27]	"p"	string
+		[28]	"ridge"	string
+		[29]	"p"	string
+		[30]	"inset"	string
+		[31]	"p"	string
+		[32]	"outset"	string
+		[33]	"p"	string
+		[34]	"none"	string
+		[35]	"p"	string
+		[36]	"hidden"	string
+		[37]	"p"	string
+		[38]	"mix"	string
+		[39]	"div"	string
+		[40]	"p"	string
+		[41]	"ex1"	string
+		[42]	"table"	string
+		[43]	"th"	string
+		[44]	"td"	string
+		[45]	"p"	string
+		[46]	"div"	string
+		[47]	"a"	string
+		[48]	""	string
+		[49]	"a"	string
+
+		[50]	"div"	string
+		[51]	"id=a]"	string
+		[52]	"0"	string
+		[53]	"0"	string
+		[54]	"center"	string
+		[55]	"red"	string
+		[56]	"center"	string
+		[57]	"red"	string
+		[58]	"center"	string
+		[59]	"red"	string
+		[60]	"center"	string
+		[61]	"red"	string
+		[62]	"center"	string
+		[63]	"blue"	string
+		[64]	"center"	string
+		[65]	"red"	string
+		[66]	"green"	string
+		[67]	"0.3"	string
+		[68]	"rgba(0, 128, 0, 0.3) "	string
+		[69]	"url(\"paper.gif\")"	string
+		[70]	"25px 50px 75px 100px"	string
+		[71]	"dotted"	string
+		[72]	"dashed"	string
+		[73]	"solid"	string
+		[74]	"double"	string
+
+		[75]	"groove"	string
+		[76]	"ridge"	string
+		[77]	"inset"	string
+		[78]	"outset"	string
+		[79]	"none"	string
+		[80]	"hidden"	string
+		[81]	"dotted dashed solid double"	string
+		[82]	"1px solid red"	string
+		[83]	"100px"	string
+		[84]	"inherit"	string
+		[85]	"1px solid black"	string
+		[86]	"red !important"	string
+		[87]	"green"	string
+		[88]	"yellow"	string
+		[89]	"blue"	string
+
+		file.Node.BM_CognitiveComplexity	0	double
+		file.Node.BM_CyclomaticComplexity	19	double
+		file.Node.BM_NestingDepth	1	int
+		coupling	0	int
+
+*/
+* {/*Selector universal*/
+    margin: 0;
+}
+
+article *:first-child {/*Select first child of any article item*/
+    margin: 0;
+}
+
+p {/*Here, all <p> elements on the page will be center-aligned, with a red text color*/
+    text-align: center;
+    color: red;
+  }
+/*
+    The CSS rule below will be applied to the HTML element with id="para1": 
+    #para1 {
+        text-align: center;
+        color: red;
+    }
+*/
+#para1 {
+    text-align: center;
+    color: red;
+}
+
+.center {
+    text-align: center;
+    color: red;
+}
+
+p.center {
+    text-align: center;
+    color: red;
+}
+
+* {
+    text-align: center;
+    color: blue;
+}
+/*In this example we have grouped the selectors from the code above*/
+h1, h2, p {
+    text-align: center;
+    color: red;
+}
+
+div {
+    background-color: green;
+    opacity: 0.3;/*The opacity property specifies the opacity/transparency of an element.*/
+}
+div {
+    background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+}
+p {
+    background-image: url("paper.gif");
+    padding: 25px 50px 75px 100px;
+}
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+div {
+    border: 1px solid red;
+    margin-left: 100px;
+}
+p.ex1 {
+    margin-left: inherit;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+p {
+   background-color: red !important;
+}
+
+div#a {background-color: green;}
+#a {background-color: yellow;}
+div[id=a] {background-color: blue;}
+
+
