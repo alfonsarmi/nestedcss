@@ -1,6 +1,6 @@
 /*
 Attribute selectors
-Selector	Description	Example 
+Selector	Description	Example
 */
 /*
 file.Node.Name	"basic/attributeSelectors.css"	string		
@@ -60,7 +60,7 @@ file.Node.Name	"basic/attributeSelectors.css"	string
 
 		file.Node.BM_CognitiveComplexity	4	double
 		file.Node.BM_CyclomaticComplexity	9	double
-		file.Node.BM_NestingDepth	3	int 
+		file.Node.BM_NestingDepth	3	int
 
 
 */
